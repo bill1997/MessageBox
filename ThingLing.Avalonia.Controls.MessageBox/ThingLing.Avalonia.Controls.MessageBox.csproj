@@ -10,7 +10,7 @@
     <Company>ThingLing</Company>
     <Authors>Bil Ly</Authors>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Images\close.png" />
