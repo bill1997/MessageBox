@@ -6,7 +6,7 @@
         x:Class="TestApp.MainWindow"
         Title="TestApp">
   <StackPanel>
-    <Button Click="Button_Click" Content="Click me"/>
+    <Button x:Name="Hey" Click="Button_Click" Content="Click me"/>
     <TextBlock x:Name="result"/>
   </StackPanel>
 </Window>

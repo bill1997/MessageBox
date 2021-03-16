@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
@@ -9,8 +9,6 @@
     <PackageReference Include="Avalonia" Version="0.10.0" />
     <PackageReference Include="Avalonia.Desktop" Version="0.10.0" />
     <PackageReference Include="Avalonia.Diagnostics" Version="0.10.0" />
+    <PackageReference Include="ThingLing.Avalonia.Controls.MessageBox" Version="1.0.1" />
    </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ThingLing.Avalonia.Controls.MessageBox\ThingLing.Avalonia.Controls.MessageBox.csproj" />
-  </ItemGroup>
 </Project>

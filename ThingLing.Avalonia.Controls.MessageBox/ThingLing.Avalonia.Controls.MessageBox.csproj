@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFramework>net5.0</TargetFramework>
@@ -13,6 +13,8 @@
     <SignAssembly>false</SignAssembly>
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageLicenseFile>licence.txt</PackageLicenseFile>
+    <PackageVersion>1.0.1</PackageVersion>
+    <PackageLicenseUrl>D:\Programming\Projects\ThingLing\licence.txt</PackageLicenseUrl>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Images\close.png" />
@@ -34,5 +36,5 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Avalonia.Desktop" Version="0.10.0" />
-   </ItemGroup>
+  </ItemGroup>
 </Project>

@@ -9,9 +9,6 @@ namespace TestApp
         public MainWindow()
         {
             InitializeComponent();
-#if DEBUG
-            this.AttachDevTools();
-#endif
         }
 
         private void InitializeComponent()
@@ -19,11 +16,10 @@ namespace TestApp
             AvaloniaXamlLoader.Load(this);
         }
 
-        async private void Button_Click(object? sender, global::Avalonia.Interactivity.RoutedEventArgs e)
+        private async void Button_Click(object? sender, global::Avalonia.Interactivity.RoutedEventArgs e)
         {
-            var mb = await MessageBox.ShowAsync(this, "Hello world, this message box is working fine", "Hello title", MessageBoxButton.OKCancel, MessageBoxImage.Information,MessageBoxResult.Cancel);
+            var mb = await MessageBox.ShowAsync(this, "Hello world, this message box is working fine", "Hello title", MessageBoxButton.OkCancel, MessageBoxImage.Information, MessageBoxResult.Cancel);
             this.FindControl<TextBlock>("result").Text = mb.ToString();
-
         }
     }
 }

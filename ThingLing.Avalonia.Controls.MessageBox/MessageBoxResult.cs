@@ -14,7 +14,7 @@ namespace ThingLing.Avalonia.Controls
         /// <summary>
         ///     The result value of the message box is OK.
         /// </summary>
-        OK = 1,
+        Ok = 1,
 
         /// <summary>
         ///     The result value of the message box is Cancel.

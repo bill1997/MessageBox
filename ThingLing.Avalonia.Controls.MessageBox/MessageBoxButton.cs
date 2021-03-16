@@ -10,12 +10,12 @@
         /// </summary>
         //  Summary
 
-        OK = 0,
+        Ok = 0,
 
         /// <summary>
         ///     The message box displays OK and Cancel buttons
         /// </summary>
-        OKCancel = 1,
+        OkCancel = 1,
 
         /// <summary>
         ///     The message box displays Yes, No, and Cancel buttons.
