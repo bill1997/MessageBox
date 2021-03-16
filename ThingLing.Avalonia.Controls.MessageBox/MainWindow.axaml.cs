@@ -67,7 +67,7 @@ namespace ThingLing.Avalonia.Controls
                     else
                         switch (YesButton.IsVisible)
                         {
-                            case true when NoButton.IsVisible:
+                            case true when NoButton.IsVisible && !CancelButton.IsVisible:
                             {
                                 if (YesButton.IsDefault)
                                 {
@@ -136,7 +136,7 @@ namespace ThingLing.Avalonia.Controls
                     else
                         switch (YesButton.IsVisible)
                         {
-                            case true when NoButton.IsVisible:
+                            case true when NoButton.IsVisible && !CancelButton.IsVisible:
                             {
                                 if (YesButton.IsDefault)
                                 {

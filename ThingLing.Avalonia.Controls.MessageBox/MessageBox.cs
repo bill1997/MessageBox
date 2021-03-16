@@ -85,6 +85,7 @@ namespace ThingLing.Avalonia.Controls
             switch (icon)
             {
                 case MessageBoxImage.None:
+                    _window.IconImage.IsVisible = false;
                     break;
                 case MessageBoxImage.Error:
                     _window.IconImage.Source =
